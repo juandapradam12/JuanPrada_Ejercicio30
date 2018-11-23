@@ -26,7 +26,7 @@ plt.hist(walk, bins=100, label='Serial')
 plt.legend()
 
 plt.subplot(212)
-plt.hist(walkOPEN, bins=100, label='Serial')
+plt.hist(walkOPEN, bins=100, label='Paralelizado')
 plt.legend()
 
 plt.savefig('walk.pdf')
